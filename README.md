@@ -4,7 +4,7 @@ Projet de data visualisations à partir des données des éléctions présidenti
 ## Arborescence du projet
 
 ```
- Edition_St_Gilles_TEI/
+ Elections_presidentielles_FR-dataviz/
 |
 ├── Dataset/
 │    ├── CSV : trouver une règle de nommage ex. elections_presidentielles_dates
