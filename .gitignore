@@ -131,3 +131,5 @@ dmypy.json
 # MAC OS
 .DS_Store
 dataset/.DS_Store
+ELECTION.zip
+ELECTION
