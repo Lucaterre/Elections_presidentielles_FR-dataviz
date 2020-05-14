@@ -7,8 +7,8 @@ Projet de data visualisations à partir des données des éléctions présidenti
  Elections_presidentielles_FR-dataviz/
 |
 ├── Dataset/
-│    ├── CSV : trouver une règle de nommage ex. elections_presidentielles_dates
+│    ├── ensemble des sources CSV
 │   
-├── Jupyter notebook contenant les data visualisations et les explications du projet
-
+├── Dataviz/
+     ├── blasons
 ```
