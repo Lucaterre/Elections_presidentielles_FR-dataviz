@@ -10,5 +10,8 @@ Projet de data visualisations à partir des données des éléctions présidenti
 │    ├── ensemble des sources CSV
 │   
 ├── Dataviz/
-     ├── blasons
+│    ├── blasons
+│ 
+├──Projet .zip contenant les recettes Dataiku
+│
 ```
