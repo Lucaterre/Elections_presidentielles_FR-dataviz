@@ -21,6 +21,10 @@
 ├── Dataviz/
 │    ├── blasons/
 |        |── json et captures d'écran de la visualisation sur Palladio de la gallerie des blasons
+│    ├── maps/
+│    ├── process_diagrams/
+│         |── captures diagrammes à barres de dataiku
+│     
 │ 
 ├──Projet/
 |    |── .zip contenant les recettes Dataiku
