@@ -1,6 +1,6 @@
 # Datavisualisation : élections présidentielles françaises (2002-2012)
 
-:bulb: Projet de datavisualisation des résultats des élections présidentielles françaises de 2002, 2007 et 2012 à partir des données du [Ministère de l'Intérieur](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections) et de l'[INSEE](https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/) collectées sur [data.gouv.fr](https://www.data.gouv.fr/fr/) principalement sous la forme de CSV.
+:bulb: Projet de datavisualisation des résultats des élections présidentielles françaises de 2002, 2007 et 2012 à partir des données collectées sur [data.gouv.fr](https://www.data.gouv.fr/fr/).
 
 :mortar_board: Réalisé dans le cadre du cours de data science du Master 2 « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes ([@Chartes-TNAH](https://github.com/Chartes-TNAH)).
 
@@ -28,13 +28,13 @@
 ```
 ## :scroll: Données d'origine
 
-Le projet s'appuie sur des jeux de données des élections issus de [data.gouv.fr](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections). Produits par la ministère de l'Intérieur, il s'agit des des résultats des élections présidentielles de 2002, 2007 et 2012, mis en forme en tableau Excel.
+Le projet s'appuie sur des jeux de données des élections issus de [data.gouv.fr](https://www.data.gouv.fr/fr/) produits par le  [Ministère de l'Intérieur](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections) et l'[INSEE](https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/). Il s'agit des résultats des élections présidentielles de 2002, 2007 et 2012 et données socio-économiques des communes, collectés sous la forme de csv.
 
 Nous avons choisi de travailler avec les résultats par communes. ```(pourquoi ?)```
 
 ## :gear: Préparation des données
 
-Les données ont été préparées sur la plateforme Dataiku.
+Les données ont été préparées et croisées à l'aide de la plateforme Dataiku afin de produire des data visualisations.
 
 ![](./Flow_dataiku_elections_2002-2012.png)
 
