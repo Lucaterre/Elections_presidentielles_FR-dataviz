@@ -25,10 +25,6 @@
 │    ├── process_diagrams/
 │         |── captures diagrammes à barres de dataiku
 │     
-│ 
-├──Projet/
-|    |── .zip contenant les recettes Dataiku
-│ 
 ├──Export du projet (flow) Dataiku 
 |
 ```
