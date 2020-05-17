@@ -24,7 +24,9 @@
 │ 
 ├──Projet/
 |    |── .zip contenant les recettes Dataiku
-│
+│ 
+├──Export du projet (flow) Dataiku 
+|
 ```
 ## :scroll: Données d'origine
 
@@ -34,7 +36,7 @@ Nous avons choisi de travailler avec les résultats par communes. ```(pourquoi ?
 
 ## :gear: Préparation des données
 
-Les données ont été préparées et croisées à l'aide de la plateforme Dataiku afin de produire des data visualisations.
+Les données ont été préparées et croisées à l'aide de la plateforme Dataiku.
 
 ![](./Flow_dataiku_elections_2002-2012.png)
 
