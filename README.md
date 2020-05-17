@@ -36,7 +36,7 @@ Nous avons choisi de travailler avec les résultats par communes. ```(pourquoi ?
 
 Les données ont été préparées sur la plateforme Dataiku.
 
-[Flow_dataiku](./Flow_dataiku_elections_2002-2012.png)
+![](./Flow_dataiku_elections_2002-2012.png)
 
 ```parler des différentes étapes de préparation (d'abord ordi de JD puis celui de Lucas)```
 
