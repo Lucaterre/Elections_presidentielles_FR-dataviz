@@ -26,3 +26,27 @@
 |    |── .zip contenant les recettes Dataiku
 │
 ```
+## :scroll: Données d'origine
+
+Le projet s'appuie sur des jeux de données des élections issus de [data.gouv.fr](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections). Produits par la ministère de l'Intérieur, il s'agit des des résultats des élections présidentielles de 2002, 2007 et 2012, mis en forme en tableau Excel.
+
+Nous avons choisi de travailler avec les résultats par communes. ```(pourquoi ?)```
+
+## :gear: Préparation des données
+
+Les données ont été préparées sur la plateforme Dataiku.
+
+```capture d'écran du flow ?```
+
+```parler des différentes étapes de préparation (d'abord ordi de JD puis celui de Lucas)```
+
+## :memo: Limites des données
+
+```parler des limites de nos préparations (statistiques)```
+
+## :art: Visualisation des données
+
+Les datavisualisations ont été préparées sur les plateformes Dataiku et Palladio.
+
+```décrire chaque visualisation```
+
