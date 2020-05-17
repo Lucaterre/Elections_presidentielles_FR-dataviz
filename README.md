@@ -1,6 +1,6 @@
 # Datavisualisation : élections présidentielles françaises (2002-2012)
 
-:bulb: Projet de datavisualisation des résultats des élections présidentielles françaises de 2002, 2007 et 2012 à partir des données de [data.gouv.fr](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections).
+:bulb: Projet de datavisualisation des résultats des élections présidentielles françaises de 2002, 2007 et 2012 à partir des données du [Ministère de l'Intérieur](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections) et de l'[INSEE](https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/) collectées sur [data.gouv.fr](https://www.data.gouv.fr/fr/) principalement sous la forme de CSV.
 
 :mortar_board: Réalisé dans le cadre du cours de data science du Master 2 « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes ([@Chartes-TNAH](https://github.com/Chartes-TNAH)).
 
