@@ -6,7 +6,7 @@
 
 :bust_in_silhouette: [@Lucaterre](https://github.com/Lucaterre), [@egray523](https://github.com/egray523), [@jeandamien-genero](https://github.com/jeandamien-genero).
 
-## :open_file_folder: Arborescence du projet
+## :open_file_folder: Arborescence
 
 ```
 Elections_presidentielles_FR-dataviz/
@@ -40,11 +40,13 @@ Elections_presidentielles_FR-dataviz/
 ```
 ## :scroll: Données d'origine
 
-Le projet s'appuie sur des jeux de données des élections issus de [data.gouv.fr](https://www.data.gouv.fr/fr/) produits par le  [Ministère de l'Intérieur](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections) et l'[INSEE](https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/). Il s'agit des résultats des élections présidentielles de 2002, 2007 et 2012 et de données socio-économiques des communes, collectés sous la forme de CSV.
+Le projet s'appuie sur des jeux de données des élections issus de [data.gouv.fr](https://www.data.gouv.fr/fr/) produits par le  [Ministère de l'Intérieur](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections) et de l'[INSEE](https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/). Il s'agit des résultats des élections présidentielles de 2002, 2007 et 2012 et de données socio-économiques des communes, collectés sous la forme de CSV.
 
-Nous avons choisi de travailler avec les résultats par communes. ```(pourquoi ?)```
+Nous avons également effectué des requêtes ```SPARQL``` sur le [Wikidata Query Service](https://query.wikidata.org/) afin d'otenir des CSV avec les noms des candidats et leurs partis pour chaque élection, et une liste des communes françaises accompagnées de leur code INSEE, leurs coordonnées géographiques et leur blason.
 
-## :gear: Préparation des données
+Nous avons choisi de travailler avec les résultats par communes pour un voir des jeux de données suffisamment grands (environ 36000 communes en France sur la période [selon Wikipedia](https://fr.wikipedia.org/wiki/Nombre_de_communes_en_France#Jusque_fin_2005)).
+
+## :gear: Préparation
 
 Les données ont été préparées et croisées à l'aide de la plateforme Dataiku.
 
@@ -56,7 +58,7 @@ Les données ont été préparées et croisées à l'aide de la plateforme Datai
 
 ```parler des limites de nos préparations (statistiques)```
 
-## :art: Visualisation des données
+## :art: Visualisations
 
 Les datavisualisations ont été préparées sur les plateformes Dataiku et Palladio.
 
