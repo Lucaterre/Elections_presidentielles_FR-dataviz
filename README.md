@@ -44,7 +44,7 @@ Le projet s'appuie sur des jeux de données des élections issus de [data.gouv.f
 
 Nous avons également effectué des requêtes ```SPARQL``` sur le [Wikidata Query Service](https://query.wikidata.org/) afin d'otenir des CSV avec les noms des candidats et leurs partis pour chaque élection, et une liste des communes françaises accompagnées de leur code INSEE, leurs coordonnées géographiques et leur blason.
 
-Nous avons choisi de travailler avec les résultats par communes pour un voir des jeux de données suffisamment grands (environ 36000 communes en France sur la période [selon Wikipedia](https://fr.wikipedia.org/wiki/Nombre_de_communes_en_France#Jusque_fin_2005)).
+Nous avons choisi de travailler avec les résultats par communes au premier tour pour un voir des jeux de données suffisamment grands (environ 36000 communes en France sur la période [selon Wikipedia](https://fr.wikipedia.org/wiki/Nombre_de_communes_en_France#Jusque_fin_2005)).
 
 ## :gear: Préparation
 
@@ -52,7 +52,7 @@ Les données ont été préparées et croisées à l'aide de la plateforme Datai
 
 ![](./Flow_dataiku_elections_2002-2012.png)
 
-```parler des différentes étapes de préparation (d'abord ordi de JD puis celui de Lucas)```
+Nous avons commencé par préparer les résultats des élections en concaténant les colonnes *nom* et *prénom* des candidats, et en construisant le code INSEE des communes à partir des colones *code du département* et *code de la commune* *via* des expressions régulières. Ces recettes ont été réalisées sur un premier appareil, le confinement ne nous ayant pas permis de travailler sur le même. L'image ci-dessus représente le flow sur le deuxième appareil, et commence avec les fichiers de résultat des élections déjà préparés (```2002_1T_prep```, ```2007_1T_2T_prep```, ```2012_1T_2T_prep```).
 
 ## :memo: Limites des données
 
