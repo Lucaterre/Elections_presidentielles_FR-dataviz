@@ -9,24 +9,34 @@
 ## :open_file_folder: Arborescence du projet
 
 ```
- Elections_presidentielles_FR-dataviz/
-|
-├── Dataset/
-│    ├── ensemble des sources CSV
-|    |── elections_results_2002-2017/
-|        |── .csv issus de la préparation sur Dataiku des data originelles
-|        |── origin_data/
-|            |── data originelles issues de data.gouv.fr
-│   
-├── Dataviz/
-│    ├── blasons/
-|        |── json et captures d'écran de la visualisation sur Palladio de la gallerie des blasons
-│    ├── maps/
-│    ├── process_diagrams/
-│         |── captures diagrammes à barres de dataiku
-│     
-├──Export du projet (flow) Dataiku 
-|
+Elections_presidentielles_FR-dataviz/
+	|
+	├── Dataset/
+	│    ├── ensemble des sources CSV
+	|    |── elections_results_2002-2017/
+	|        |── .csv issus de la préparation sur Dataiku des data originelles
+	|        |── origin_data/
+	|            |── data originelles issues de data.gouv.fr
+	│   
+	├── Dataviz/
+	│    ├── blasons/
+	|        |── json et captures d'écran de la visualisation de la galerie des blasons
+	│    ├── maps/
+	|        |── Alsace/
+	|            |── json et captures d'écran des cartes de visualisation des résultats en Alsace
+	|        |── NordPasdeCalais/
+	|            |── json et captures d'écran des cartes de visualisation des résultats dans le
+	|					Nord-Pas-de-Calais
+	|        |── ParisPetiteCouronne/
+	|            |── json et captures d'écran des cartes de visualisation des résultats dans Paris 
+	|					et la petite couronne
+	│    ├── process_diagrams/
+	│         |── diagrammes sur les résultats
+	│     
+	├── Export du projet (flow) Dataiku 
+	│
+	├── ELECTIONS_MASHUP.zip : recettes Dataiku
+	|
 ```
 ## :scroll: Données d'origine
 
