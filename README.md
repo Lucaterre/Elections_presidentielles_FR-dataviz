@@ -44,7 +44,6 @@ Elections_presidentielles_FR-dataviz/
 	│             |── diagrammes sur les résultats
 	│     
 	├── ELECTIONS_MASHUP.zip : recettes Dataiku
-	|
 ```
 ## :scroll: Données d'origine
 
