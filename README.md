@@ -52,11 +52,8 @@ Les données ont été préparées et croisées à l'aide de la plateforme Datai
 
 ![](./Flow_dataiku_elections_2002-2012.png)
 
-Nous avons commencé par préparer les résultats des élections en concaténant les colonnes *nom* et *prénom* des candidats, et en construisant le code INSEE des communes à partir des colones *code du département* et *code de la commune* *via* des expressions régulières. Ces recettes ont été réalisées sur un premier appareil, le confinement ne nous ayant pas permis de travailler sur le même. L'image ci-dessus représente le flow sur le deuxième appareil, et commence avec les fichiers de résultat des élections déjà préparés (```2002_1T_prep```, ```2007_1T_2T_prep```, ```2012_1T_2T_prep```).
+Les recettes utilisées pour la préparation des données sont disponibles dans le fichier [ELECTIONS_MASHUP.zip](https://github.com/Lucaterre/Elections_presidentielles_FR-dataviz/blob/master/ELECTIONS_MASHUP.zip).
 
-## :memo: Limites des données
-
-```parler des limites de nos préparations (statistiques)```
 
 ## :art: Visualisations
 
@@ -64,3 +61,6 @@ Les datavisualisations ont été préparées sur les plateformes Dataiku et Pall
 
 ```décrire chaque visualisation```
 
+## :memo: Limites des données
+
+```parler des limites de nos préparations (statistiques)```
