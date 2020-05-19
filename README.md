@@ -21,16 +21,27 @@ Elections_presidentielles_FR-dataviz/
 	│   
 	├── Dataviz/
 	│    ├── blasons/
-	|    |   |── json et captures d'écran de la visualisation de la galerie des blasons
+	|    |   |── 2002/
+	|    |   |    |── json et captures d'écran de la visualisation de la galerie des blasons pour 2002
+	|    |   |
+	|    |   |── 2007/
+	|    |   |    |── json et captures d'écran de la visualisation de la galerie des blasons pour 2007
+	|    |   |
+	|    |   |── 2012/
+	|    |        |── json et captures d'écran de la visualisation de la galerie des blasons pour 2012
+	|    |
 	│    ├── map/
 	|    |   |── Alsace/
 	|    |   |    |── json et captures d'écran des cartes de visualisation des résultats en Alsace
+	|    |   |
 	|    |   |── NordPasdeCalais/
 	|    |   |    |── json et captures d'écran des cartes de visualisation des résultats dans le Nord-Pas-de-Calais
+	|    |   |
 	|    |   |── ParisPetiteCouronne/
-	|    |        |── json et captures d'écran des cartes de visualisation des résultats dans Paris et la petite couronne
-	│    ├── process_diagrams/
-	│        |── diagrammes sur les résultats
+	|    |   |    |── json et captures d'écran des cartes de visualisation des résultats dans Paris et la petite couronne
+	│    |   |
+	|    |   ├── process_diagrams/
+	│    |       |── diagrammes sur les résultats
 	│     
 	├── ELECTIONS_MASHUP.zip : recettes Dataiku
 	|
