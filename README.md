@@ -12,11 +12,12 @@
 Elections_presidentielles_FR-dataviz/
 	|
 	├── Dataset/
-	│    ├── ensemble des sources CSV
-	|    |── elections_results_2002-2017/
-	|        |── .csv issus de la préparation sur Dataiku des data originelles
-	|        |── origin_data/
-	|            |── data originelles issues de data.gouv.fr
+	|    |──INSEE_data_socioeco : données socio-économiques issues de insee.fr
+	|    |
+	|    |── data_gouv_resultats_elections : csv issus de la préparation sur Dataiku des data originelles
+	|    |   |── origin_data/
+	|    |
+ 	|    |── wikidata_requests_SPARQL : requêtes SPARQL effectuées sur Wikidata Query Service et leurs résultats
 	│   
 	├── Dataviz/
 	│    ├── blasons/
