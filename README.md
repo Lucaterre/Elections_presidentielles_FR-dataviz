@@ -50,7 +50,7 @@ Elections_presidentielles_FR-dataviz/
 
 Le projet s'appuie sur des jeux de données des élections issus de [data.gouv.fr](https://www.data.gouv.fr/fr/) produits par le  [Ministère de l'Intérieur](https://www.data.gouv.fr/fr/posts/les-donnees-des-elections) et de l'[INSEE](https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/). Il s'agit des résultats des élections présidentielles de 2002, 2007 et 2012 et des données socio-économiques sur les communes, collectés sous la forme de CSV.
 
-Nous avons également effectué des requêtes ```SPARQL``` sur le [Wikidata Query Service](https://query.wikidata.org/) ([lien](https://github.com/Lucaterre/Elections_presidentielles_FR-dataviz/blob/master/dataset/wikidata_requests_SPARQL/sparql_req)) afin d'otenir des CSV avec les noms des candidats et leurs partis pour chaque élection, et une liste des communes françaises accompagnées de leur code INSEE, leurs coordonnées géographiques et leur blason.
+Nous avons également effectué des requêtes ```SPARQL``` sur le [Wikidata Query Service](https://query.wikidata.org/) ([lien](https://github.com/Lucaterre/Elections_presidentielles_FR-dataviz/blob/master/dataset/wikidata_requests_SPARQL/sparql_req)) afin d'obtenir des CSV avec les noms des candidats et leurs partis pour chaque élection, et une liste des communes françaises accompagnées de leur code INSEE, leurs coordonnées géographiques et leur blason.
 
 Nous avons choisi de travailler avec les résultats par communes au premier tour pour un avoir des jeux de données suffisamment grands (environ 36000 communes en France sur la période selon [Wikipedia](https://fr.wikipedia.org/wiki/Nombre_de_communes_en_France#Jusque_fin_2005)).
 
@@ -108,7 +108,7 @@ Nous avons également souhaité tester l'option charts de Dataiku afin de produi
 
 ### Dataset de data.gouv.fr
 
-- Le ministère de l'Intérieur n'a pas construit le dataset de 2017 de la même manière que les précédents, c'est pourquoi nous n'avons pas pu effuctuer une jointure entre eux. Dans les fichiers de 2002 à 2012, les résultats sont présentés en fonction des candidats ; en 2017, le colonnes sont remplis en fonction du classement des candidats.
+- Le ministère de l'Intérieur n'a pas construit le dataset de 2017 de la même manière que les précédents, c'est pourquoi nous n'avons pas pu effectuer une jointure entre eux. Dans les fichiers de 2002 à 2012, les résultats sont présentés en fonction des candidats ; en 2017, le colonnes sont remplis en fonction du classement des candidats.
 
 - Nous n'avons pas utiliser les résultats des deuxièmes tours car le candidat FN n'y a pas accédé en 2007.
 
@@ -116,7 +116,7 @@ Nous avons également souhaité tester l'option charts de Dataiku afin de produi
 
 - Nous n'avons utilisé que les données des communes possédant un blason sur Wikidata, soit 5972 entrées.
 
-- L'utilisateur peut identifier une commune grâce à son blason. Malheureusement, Palladio impose un schéma title – subtitle – text, qui s'est avéré contraingnant pour nous. En effet, nous aurions souhaité faire une seule gallerie pour les résultats des trois élections, mais le schéma nous a contraint à en faire une par élection.
+- L'utilisateur peut identifier une commune grâce à son blason. Malheureusement, Palladio impose un schéma title – subtitle – text, qui s'est avéré contraignant pour nous. En effet, nous aurions souhaité faire une seule galerie pour les résultats des trois élections, mais le schéma nous a contraint à en faire une par élection.
 
 ### Cartes
 
