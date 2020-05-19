@@ -58,7 +58,7 @@ Les datavisualisations ont été préparées sur les plateformes Dataiku et Pall
 
 ### Blasons
 
-```capture d'écran```
+![](dataviz/blason/2002/FrPresElec_dataviz_blasons2002-settings.png)
 
 Le but de ces trois dataviz préparées sur Palladio est de montrer le nombre des voix exprimées pour le Front national dans une commune pour une élection donnée. Elles contiennent chacune le nom de la commune, le nombre total de votant et le nombre de voix du Front national dans la commune. Ces données font face au blason de la commune, figurée par son url dans le csv d'origine. Les entrées sont triées en fonction de la population des communes. Chaque entrée comporte donc :
 
@@ -71,7 +71,9 @@ Le but de ces trois dataviz préparées sur Palladio est de montrer le nombre de
 
 ### Cartes
 
-```captures d'écran ; FrPresElec_dataviz_map_Alsace02-12_clear-detailColmar.png ; FrPresElec_dataviz_map_ParisPC_clear.png```
+![](dataviz/map/Alsace/FrPresElec_dataviz_map_Alsace02-12_clear-detailColmar.png)
+
+
 
 Les cartes, également préparées sur Palladio, montrent l’évolution du vote en faveur du Front national de 2002 à 2012.
 
@@ -79,11 +81,11 @@ Les résultats de 2002 sont en bleu, ceux de 2007 en rouge, et ceux de 2012 en v
 
 Les cartes montrent que les élections où le FN a remporté le plus de voix au premier tour sont celles de 2002, suivies par celles de 2012, tandis qu'une baisse signifiante s'observe en 2007. La crise économique de 2008 a pu avoir un effet sur la remontée du FN. Les visualisation montrent également que le FN remporte moins de voix dans les grandes communes. Par exemple, Colmar (Haut-Rhin) a un taux de vote pour le Front national moins important que ses communes limitrophes plus petites.
 
+![](dataviz/map/ParisPetiteCouronne/FrPresElec_dataviz_map_ParisPC_clear.png)
+
 Le taux de vote pour le Front national est bien moins important à Paris que dans les communes plus éloignées de la capitale. Le taux de vote pour le FN en 2012 approche, et même, surpasse celui de 2002 dans les communes éloignées à l’ouest de Paris.
 
 ### Diagrammes
-
-```capture```
 
 Nous avons également souhaité tester l'option charts de Dataiku afin de produire des diagrammes statistiques. Les indicateurs socio-économiques de l'INSEE ont été mis en relation avec les votes exprimés pour le FN : 
 
