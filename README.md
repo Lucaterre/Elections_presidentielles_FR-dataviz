@@ -1,4 +1,4 @@
-# Datavisualisations : les résultats du FN aux élections présidentielles françaises de 2002 à 2012
+# Datavisualisations : élections présidentielles françaises de 2002 à 2012
 
 :bulb: Projet de datavisualisation des résultats des élections présidentielles françaises de 2002, 2007 et 2012 à partir des données collectées sur [data.gouv.fr](https://www.data.gouv.fr/fr/).
 
