@@ -38,7 +38,7 @@ Elections_presidentielles_FR-dataviz/
 	|    |   |    |── json et captures d'écran des cartes de visualisation des résultats dans le Nord-Pas-de-Calais
 	|    |   |
 	|    |   |── ParisPetiteCouronne/
-	|    |   |    |── json et captures d'écran des cartes de visualisation des résultats dans Paris et la petite couronne
+	|    |        |── json et captures d'écran des cartes de visualisation des résultats dans Paris et la petite couronne
 	│    |
 	|    ├── process_diagrams/
 	│        |── diagrammes sur les résultats
