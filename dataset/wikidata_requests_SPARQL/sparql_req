@@ -1,0 +1,111 @@
+######### Candidates Elections presidentielles ##########
+
+###2002
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT ?name ?politicalpartylabel ?image 
+WHERE {wd:Q1129306 wdt:P726 ?candidate.
+       ?candidate wdt:P102 ?politicalparty; wdt:P1559 ?name; wdt:P18 ?image.
+       ?politicalparty rdfs:label ?politicalpartylabel.
+       FILTER (lang(?politicalpartylabel)='fr')
+}
+
+
+### 2007
+
+SELECT ?name ?politicalpartylabel ?image 
+WHERE {wd:Q245238 wdt:P726 ?candidate.
+       ?candidate wdt:P102 ?politicalparty; wdt:P1559 ?name; wdt:P18 ?image.
+       ?politicalparty rdfs:label ?politicalpartylabel.
+       FILTER (lang(?politicalpartylabel)='fr')
+}
+
+
+### 2012 
+
+SELECT ?name ?politicalpartylabel ?image 
+WHERE {wd:Q487666 wdt:P726 ?candidate.
+       ?candidate wdt:P102 ?politicalparty; wdt:P1559 ?name; wdt:P18 ?image.
+       ?politicalparty rdfs:label ?politicalpartylabel.
+       FILTER (lang(?politicalpartylabel)='fr')
+}
+
+
+### 2017
+
+SELECT ?name ?party ?image
+WHERE { wd:Q7020999 p:P726 ?candidatestatement.
+       ?candidatestatement ps:P726 ?candidate.
+       ?candidatestatement pq:P3831 wd:Q27943251.
+       ?candidate wdt:P102 ?politicalparty; wdt:P1559 ?name. 
+                  OPTIONAL{?candidate wdt:P18 ?image.}
+       ?politicalparty rdfs:label ?party
+                       FILTER (lang(?party)='fr')
+                       }
+
+#######Communes########
+
+INSEE/dept/region
+SELECT ?INSEE ?dept ?region
+WHERE {?commune wdt:P31 wd:Q484170.
+       ?commune wdt:P374 ?INSEE.
+       ?commune wdt:P131 ?department.
+       ?department wdt:P31 wd:Q6465.
+       ?department rdfs:label ?dept.
+       ?department wdt:P131 ?qregion. 
+       ?qregion wdt:P31 wd:Q36784.
+       ?qregion rdfs:label ?region.
+       FILTER(lang(?dept)='fr')
+       FILTER(lang(?region)='fr')
+               }
+
+INSEE/name/pop/geo/area/OPT(ele,blas)
+
+SELECT ?commune_nom ?INSEE ?pop ?donnesgeo ?area ?elevation ?blason
+WHERE {?commune wdt:P31 wd:Q484170;
+                rdfs:label ?commune_nom;
+                wdt:P374 ?INSEE;
+                wdt:P2046 ?area; 
+                wdt:P625 ?donnesgeo.
+       OPTIONAL{?commune wdt:P94 ?blason;
+                         wdt:P2044 ?elevation.}
+       ?commune p:P1082 ?popstmt.
+       ?popstmt ps:P1082 ?pop;
+                pq:P585 ?date .
+       FILTER(YEAR(?date) = 2017).
+       FILTER(lang(?commune_nom)='fr')
+       }
+
+The beautiful do-it-all request that times out the server :(
+
+SELECT ?commune_nom ?INSEE ?pop ?donnesgeo ?area ?dept ?region ?elevation ?blason
+WHERE {?commune wdt:P31 wd:Q484170;
+                rdfs:label ?commune_nom;
+                wdt:P374 ?INSEE;
+                wdt:P2046 ?area; 
+                wdt:P625 ?donnesgeo;
+                wdt:P131 ?department.
+       ?department wdt:P31 wd:Q6465;
+                   rdfs:label ?dept;
+                   wdt:P131 ?qregion. 
+       ?qregion wdt:P31 wd:Q36784;
+                rdfs:label ?region.
+       OPTIONAL{?commune wdt:P94 ?blason;
+                         wdt:P2044 ?elevation.}
+       ?commune p:P1082 ?popstmt.
+       ?popstmt ps:P1082 ?pop;
+                pq:P585 ?date .
+       FILTER(YEAR(?date) = 2017).
+       FILTER(lang(?commune_nom)='fr').
+       FILTER(lang(?dept)='fr').
+       FILTER(lang(?region)='fr').
+       }
+	
